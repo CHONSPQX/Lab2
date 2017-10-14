@@ -15,22 +15,18 @@ public class Author{
     	this.name=name;
     	this.age=age;
     	this.country=country;
-		// TODO Auto-generated constructor stub
 	}
     public Author()
     {
     	
     }
     public void setAuthorid(String authorid){
-    	//authorid=Tool.Toutf(authorid);
         this.authorid=authorid;
     }
     public void setName(String name) {
-    	//name=Tool.Toutf(name);
         this.name=name;
     }
     public void setCountry(String country){
-    	//country=Tool.Toutf(country);
         this.country=country;
     }
     public void setAge(int age){

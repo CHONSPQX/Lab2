@@ -17,7 +17,7 @@ public class AdminDatabase {
 	ResultSet rs = null;
 
 	
-	public Connection ConnectMysql() {
+	public Connection ConnectMysql() {//连接数据库
 		try {
 			Class.forName(drivename);
 			conn = (Connection) DriverManager.getConnection(url, user, password);

@@ -38,7 +38,7 @@ public class AdminAction extends ActionSupport
 		}
     }
 	
-	public String Admin_check() throws Exception 
+	public String Admin_check() throws Exception //检查用户名密码
 	{
 		admindatabase.ConnectMysql();
 		String sqlSearchItem = "select * from test.admin where name='"+admin.username+"' and pwd='"+admin.userpwd+"'";
